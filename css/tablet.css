@@ -1,0 +1,40 @@
+.tables-container{
+    display: flex;
+}
+
+.currency-table{
+    margin-right: 5rem;
+}
+.hidden{
+    display: initial;
+}
+
+.main-tables--next-icon {
+    display: none;
+  }
+  
+.main-tables--prev-icon{
+    display: none;
+}
+
+
+.product-cards--container{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.bitcoin-img-container{
+    background-attachment: fixed;
+}
+
+.plans-container--slider{
+    justify-content: center;
+    overflow-x: auto;
+}
+
+.plans-container--card{
+    margin: 50px 30px 0;
+}
